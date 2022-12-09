@@ -26,7 +26,7 @@ CrZsJsPPZsGzwwsLwLmpwMDw"""
 
 
 if __name__ == '__main__':
-    # unittest.main()
+    unittest.main()
     TD3 = TestDay3()
     TD3.test_star1()
     TD3.test_star2()
