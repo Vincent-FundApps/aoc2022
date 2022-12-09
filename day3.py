@@ -19,7 +19,6 @@ class day3:
         i=len(rucksacks)
         while(i>0):
             inter = ''.join(set((rucksacks[i-1])).intersection(set((rucksacks[i-2])), set((rucksacks[i-3]))))
-            # inter=''.join(set(rucksacks[i-1]).union(set(rucksacks[i-2])).intersection(set(rucksacks[i-3])))
             if (inter.islower()):
                 priorities += ord(inter)-97+1
             else:
