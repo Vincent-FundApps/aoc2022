@@ -35,4 +35,4 @@ if __name__ == '__main__':
     unittest.main()
     TD = Testday9()
     TD.test_star1()
-    # TD.test_star2()
+    TD.test_star2()
